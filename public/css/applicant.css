@@ -1,0 +1,103 @@
+div.but {
+   margin-top: 30px;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+div.but button {
+   border: none;
+   border-radius: 5px;
+   width: 120px;
+   height: 50px;
+   color: var(--secundario);
+   transition: 0.5s;
+   font-size: 20px;
+   font-family: 'Qanelas Light', normal;
+   outline: none;
+   width: 100%;
+   background: rgb(19,54,157);
+   background: linear-gradient(0deg, rgb(23, 63, 184) 0%, rgba(0,91,255,1) 100%);
+}
+
+div.but button:hover{
+   background: linear-gradient(0deg, rgb(17, 48, 138) 0%, rgb(0, 71, 204) 100%);
+}
+
+
+.tituloapp{
+    font-family: 'Qanelas Light', normal;
+    padding-left: 4.7vw;
+    font-size: 24px;
+    color: rgb(204, 204, 204);
+  
+    background-image: url(../img/etec.jpg);
+    background-position:right 35% bottom 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    box-shadow: inset 0 200px 200px #000000;
+    margin-top : -16px;
+  }
+  
+  .tituloapp p{
+    padding-top: 10px;
+  }
+
+  .square{
+    width: 100%;
+    height: 10px;
+    background-color: var(--principal);
+  }
+
+  .formu{
+    margin-top: 30px;
+
+ }
+ .formu label{
+    font-family: 'Qanelas Medium', sans-serif;
+ }
+
+ .formu input{
+    font-family: 'Qanelas Light', sans-serif;
+ }
+
+ .formu select{
+    font-family: 'Qanelas Light', sans-serif;
+ }
+  
+ .ling{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    background:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+
+  @media screen and (min-width: 1200px)
+  {
+    .formu{
+        margin: 200px;
+        margin-top: 30px;
+        margin-bottom: 40px; 
+     }
+  }
+
+  @media screen and (max-width:1199px)  and (min-width: 992px) 
+  {
+    .formu{
+        margin: 100px;
+        margin-top: 30px;
+        margin-bottom: 40px; 
+     }
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 768px)
+  {
+    .formu{
+        margin: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px; 
+     }
+  }
